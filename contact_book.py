@@ -40,7 +40,7 @@ class ContactManager:
                 return
         print(f"Contact not found with the name {name}")
 
-# User Interface
+
 if __name__ == "__main__":
     contact_manager = ContactManager()
 
