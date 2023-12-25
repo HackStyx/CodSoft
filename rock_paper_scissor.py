@@ -46,7 +46,7 @@ def print_final_result(user_score, comp_score):
     else:
         print("It's a tie!")
 
-# Main program flow
+
 print("Rock Paper Scissors\n")
 
 rounds = int(input("Best out of how many rounds? "))
