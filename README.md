@@ -1,6 +1,6 @@
 # CodSoft Internship Tasks
 
-Welcome to the CODSOFT internship repository! Here, you'll find a collection of tasks completed during my internship. Each task is designed to showcase my programming skills and problem-solving abilities.
+Welcome to the CODSOFT internship repository. Here, you'll find a collection of tasks completed during my internship.
 
 ## Tasks
 
