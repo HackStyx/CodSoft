@@ -17,16 +17,16 @@ class TodoApp(QWidget):
             font-size: 16px;
         """)
 
-        # Todo List Title
+
         self.titleLabel = QLabel('My Todo List')
         self.titleLabel.setFont(QFont('Arial', 24, QFont.Bold))
 
-        # Input box
+        
         self.inputBox = QLineEdit()
         self.inputBox.setStyleSheet('QLineEdit {background: white;}')
         self.inputBox.setMinimumHeight(40)
 
-        # Add and Update buttons
+
         self.addButton = QPushButton('Add')
         self.addButton.setStyleSheet('QPushButton {background: #4CAF50; color: white;}')
         self.addButton.clicked.connect(self.addTodo)
@@ -35,11 +35,11 @@ class TodoApp(QWidget):
         self.updateButton.setStyleSheet('QPushButton {background: #2196f3; color: white;}')
         self.updateButton.clicked.connect(self.updateTodo)
 
-        # Todo List widget
+        
         self.todoList = QListWidget()
         self.todoList.setStyleSheet('QListWidget {background: white;}')
 
-        # Application Layout
+
         self.mainLayout = QVBoxLayout()
         self.mainLayout.addWidget(self.titleLabel, alignment=Qt.AlignCenter)
         self.mainLayout.addWidget(self.inputBox)
